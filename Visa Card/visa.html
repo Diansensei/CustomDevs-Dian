@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Card</title>
+    <link rel="stylesheet" href="visa.css">
+</head>
+<body>
+    <div class="PageWrapper">
+        <div class="cardContainer">
+            <h1 id="CardBrand">VISA</h1>
+            <h2 id="CardNum">000 000 000 000</h2>
+            <div class="detailsContainer">
+                <div class="leftDeets">
+                    <h5 id="leftText" class="left">CARDHOLDER NAME</h5>
+                    <h3 class="left">Mr. Adrian J Alon</h3>
+                </div>
+                <div class="leftDeets">
+                    <h5 id="rightText" class="right">VALID THRU</h5>
+                    <h3 class="right">MM/YY</h3>
+                </div>
+              
+            </div>
+            
+        </div>
+        <div id="spacer"> </div>
+        <div class="formContainer">
+            <h2>Payment Details</h2>
+            <h3 id="inputLabel">Cardholder Name</h3>
+            <input type="text" placeholder="Your Account Name" required>
+            <h3 id="inputLabel">Card Number</h3>
+            <input type="text" placeholder="000 000 000 000" required>
+            <div class="PayDetails">
+                <div class="Exp">
+                    <h3 id="inputLabel">Exp Date</h3>
+                    <input id="inpPayment" type="text" placeholder="MM/YY" required>
+                </div> 
+                <div class="Exp">
+                    <h3 id="inputLabel">CVV</h3>
+                    <input id="inpPayment" type="text" placeholder="0000" required>
+                </div>               
+            </div>
+            <button>CONFIRM</button>
+        </div>
+    </div>
+</body>
+</html>
